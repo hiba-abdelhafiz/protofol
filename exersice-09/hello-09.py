@@ -1,4 +1,4 @@
-def display_menu(items):
+ display_menu(items):def
     print("\n--- Vending Machine Menu ---")
     for code, item in items.items():
         print(f"{code}: {item['name']} (£{item['price']}) - Stock: {item['stock']}")
@@ -54,3 +54,4 @@ def vending_machine():
         print("No items selected.")
 
 vending_machine()
+
