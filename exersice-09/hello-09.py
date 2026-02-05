@@ -1,3 +1,5 @@
+
+
  display_menu(items):def
     print("\n--- Vending Machine Menu ---")
     for code, item in items.items():
@@ -54,5 +56,4 @@ def vending_machine():
         print("No items selected.")
 
 vending_machine()
-
 
